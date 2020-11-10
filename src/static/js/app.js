@@ -53,7 +53,7 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">Hacim burada birsey! Istersen guzel bir esyler ekle!</p>
+                <p className="text-center">Hadi bakalim, kolay! Yeni birseyler soyleme vakti geldi!</p>
             )}
             {items.map(item => (
                 <ItemDisplay
